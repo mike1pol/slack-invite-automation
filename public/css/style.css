@@ -105,6 +105,12 @@ color: #ffffff;
 float: left;
 padding: 15px;
 margin-bottom: 15px;
+transition: box-shadow .2s ease-out;
+box-shadow: none;
+}
+.field:focus {
+outline: none;
+box-shadow: 0 0 30px #D9FAFF;
 }
 
 @media only screen and (max-device-width: 420px)  {
@@ -134,8 +140,13 @@ font-family: 'Lato', sans-serif;
 font-size: 14px;
 font-weight: bold;
 cursor: pointer;
+transition: box-shadow .2s ease-out;
+box-shadow: none;
 }
-
+.submit:focus {
+outline: none;
+box-shadow: 0 0 10px #D9FAFF;
+}
 
 .submit:hover{
 background: #eeeeee;
